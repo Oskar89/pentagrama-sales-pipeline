@@ -1,0 +1,206 @@
+id_venta,cliente,producto,color,vendedor,monto,fecha
+1,Pablo Melo,Persiana enrollable,Blanco,Sofia Gomez,442954,2026-05-01
+2,Camilo Sánchez,Persiana enrollable,Negro,Ana Torres,165815,2026-04-20
+3,Nataly Arias Tamayo,Persiana enrollable,Negro,Sofia Gomez,238817,2026-08-01
+4,Jairo Ramos Rojas,Persiana enrollable,Gris,Ana Torres,173843,2026-07-19
+5,Johanna Martínez Torres,Persiana veneciana,Azul,Luis Ramirez,291424,2026-04-25
+6,Brayan Hernández,Persiana enrollable,Azul,Luis Ramirez,292855,2026-08-13
+7,Enrique Horacio Marín Rueda,Panel japones,Negro,Sofia Gomez,207024,2026-04-07
+8,,Cortina blackout,Negro,Sofia Gomez,247404,2026-04-17
+9,Rosalba Bolaños Zambrano,Cortina blackout,Gris,Sofia Gomez,341158,2026-08-20
+10,Margarita Arango,Persiana enrollable,Negro,Sofia Gomez,462996,2026-03-29
+11,Luis Jorge Miranda Becerra,Cortina translucida,Gris,Ana Torres,293016,2026-04-29
+12,Yazmín Molina Contreras,Persiana enrollable,Gris,Luis Ramirez,160337,2026-08-14
+13,Luis Tulio Morales Hoyos,Cortina translucida,Gris,Sofia Gomez,456184,2026-08-09
+14,Jhon Beltrán,Panel japones,Blanco,Luis Ramirez,482461,2026-09-10
+15,Luz Andrea Ávila,Persiana enrollable,Blanco,Sofia Gomez,334769,2026-08-09
+16,Carmen Teresa Ardila López,Cortina blackout,Azul,Ana Torres,409598,2026-08-24
+17,Alonso Nieto,Persiana veneciana,Beige,Sofia Gomez,157609,2026-08-24
+18,Jhon Camargo Quintero,Cortina translucida,Azul,Luis Ramirez,212240,2026-08-14
+19,Vilma Lizeth Caro,Persiana enrollable,Negro,Ana Torres,345923,2026-04-27
+20,Rocío Melo,Persiana veneciana,Beige,Luis Ramirez,485055,2026-09-15
+21,Juan Medina Triana,Persiana enrollable,Blanco,Sofia Gomez,386420,2026-05-11
+22,Dolly María Perdomo Moreno,Panel japones,Azul,Ana Torres,335931,2026-04-21
+23,Dayana Mercedes Parra,Persiana veneciana,Azul,Sofia Gomez,117745,2026-05-26
+24,Carlos Emiro Giraldo,Cortina blackout,Negro,Ana Torres,310827,2026-09-18
+25,Juan Henry Velasco,Cortina blackout,Blanco,Ana Torres,147684,2026-04-18
+26,Beatriz Londoño Moreno,Persiana veneciana,Negro,Ana Torres,80474,2026-05-04
+27,Socorro Cristina Cabrera,Cortina translucida,Beige,Sofia Gomez,288583,2026-07-04
+28,Nohora Edilma Sanabria Bohórquez,Persiana veneciana,Negro,Ana Torres,282956,2026-09-06
+29,Álvaro Correa Zapata,Panel japones,Beige,Sofia Gomez,178140,2026-05-03
+30,Fanny Beatriz Suárez Villamizar,Cortina translucida,Blanco,Luis Ramirez,416065,2026-06-21
+31,Patricia María Gamboa Angulo,Persiana veneciana,Beige,Ana Torres,141917,2026-05-06
+32,Emiro Moreno,Persiana enrollable,Blanco,Sofia Gomez,218053,2026-08-29
+33,Esperanza Stella Beltrán Rivera,Persiana enrollable,Negro,Ana Torres,430939,2026-08-21
+34,Danilo Jorge Ortega,Cortina translucida,Azul,Luis Ramirez,348850,2026-06-20
+35,Diego Antonio Carrillo,Cortina blackout,Blanco,Luis Ramirez,492544,2026-06-10
+36,,Cortina blackout,Azul,Luis Ramirez,386021,2026-04-17
+37,Alfredo Hernández,Cortina translucida,Azul,Luis Ramirez,282825,2026-05-31
+38,María García,Panel japones,Beige,Ana Torres,224209,2026-09-16
+39,José Alfonso Beltrán Ruiz,Cortina blackout,Gris,Luis Ramirez,136073,2026-07-23
+40,Dolores Medina Zambrano,Persiana veneciana,Azul,Sofia Gomez,336655,2026-05-01
+41,Gloria Ruiz Castillo,Persiana enrollable,Negro,Sofia Gomez,307625,2026-07-15
+42,Patricia Gladys Mejía Acosta,Cortina blackout,Gris,Sofia Gomez,238160,2026-06-13
+43,Víctor Andrés Parra,Cortina translucida,Beige,Sofia Gomez,403991,2026-09-16
+44,Lucía Martha Mosquera Castro,Cortina blackout,Blanco,Sofia Gomez,139487,2026-06-30
+45,Alejandra Adriana Cáceres Gutiérrez,Panel japones,Gris,Sofia Gomez,118526,2026-08-22
+46,Melissa Leydi Rojas,Cortina translucida,Blanco,Sofia Gomez,330176,2026-08-11
+47,Jorge Ramírez Rendón,Persiana enrollable,Blanco,Luis Ramirez,432313,2026-05-12
+48,Emilio Mercado,Cortina blackout,Gris,Sofia Gomez,215850,2026-06-02
+49,Diana Gabriela León,Panel japones,Blanco,Luis Ramirez,483758,2026-09-10
+50,Ricardo Alfredo Serrano,Cortina blackout,Beige,Luis Ramirez,210124,2026-03-24
+51,Daniela Jiménez,Persiana enrollable,Negro,Sofia Gomez,304543,2026-05-13
+52,Marlene Liliana Rueda Sánchez,Persiana enrollable,Beige,Sofia Gomez,349261,2026-04-12
+53,Xiomara Enith Cifuentes Medina,Persiana veneciana,Azul,Ana Torres,377794,2026-03-24
+54,Alexander Sánchez,Cortina translucida,Azul,Sofia Gomez,140797,2026-06-07
+55,David Arrieta Delgado,Cortina blackout,Blanco,Sofia Gomez,485060,2026-05-04
+56,Luz Inés Navarro López,Cortina translucida,Blanco,Sofia Gomez,398296,2026-07-06
+57,Erika Luz Hurtado Rincón,Cortina blackout,Negro,Sofia Gomez,287775,2026-05-22
+58,Martha Rita Vargas,Cortina blackout,Gris,Ana Torres,324980,2026-07-17
+59,José Ruiz,Panel japones,Gris,Ana Torres,127980,2026-04-25
+60,,Cortina blackout,Beige,Luis Ramirez,224250,2026-06-15
+61,Jhonatan Roberto Sierra Rodríguez,Persiana enrollable,Gris,Luis Ramirez,248589,2026-08-06
+62,María Elena Hurtado Serrano,Persiana enrollable,Azul,Luis Ramirez,398777,2026-08-25
+63,Andrés Martínez Roa,Panel japones,Gris,Ana Torres,101567,2026-08-26
+64,Luis Castro Aguirre,Persiana enrollable,Blanco,Sofia Gomez,209404,2026-08-10
+65,Lucía Ramírez Ávila,Cortina translucida,Azul,Ana Torres,116231,2026-05-20
+66,Alejandra Castillo Triana,Panel japones,Azul,Ana Torres,273836,2026-07-14
+67,Miguel Pineda,Cortina translucida,Beige,Sofia Gomez,270372,2026-08-21
+68,Martha Carmenza Pacheco Mena,Persiana enrollable,Beige,Ana Torres,310191,2026-06-28
+69,Vanessa Quintero Salcedo,Persiana enrollable,Azul,Ana Torres,408068,2026-07-12
+70,José David Valencia Contreras,Persiana veneciana,Beige,Luis Ramirez,449356,2026-05-10
+71,Amparo Patricia Arrieta Cáceres,Persiana veneciana,Blanco,Sofia Gomez,453596,2026-06-29
+72,Nancy Benavides Zuluaga,Persiana veneciana,Azul,Sofia Gomez,204632,2026-05-04
+73,Fabián Juan Guevara,Cortina blackout,Gris,Luis Ramirez,374037,2026-06-04
+74,John Galindo Hernández,Persiana enrollable,Negro,Ana Torres,202077,2026-07-07
+75,Ferney Yesid Santos,Cortina translucida,Gris,Ana Torres,382873,2026-04-13
+76,Milena Rodríguez,Persiana veneciana,Negro,Luis Ramirez,234594,2026-06-12
+77,Helena Beltrán Londoño,Panel japones,Blanco,Sofia Gomez,496858,2026-05-02
+78,Luis Juan Morales,Cortina blackout,Blanco,Luis Ramirez,333248,2026-07-05
+79,Javier Adolfo Arango,Persiana veneciana,Blanco,Luis Ramirez,112296,2026-07-22
+80,Leonel José Mosquera,Panel japones,Beige,Ana Torres,474607,2026-04-15
+81,María Pacheco,Cortina translucida,Azul,Ana Torres,406098,2026-06-20
+82,Margarita Hernández,Cortina blackout,Negro,Luis Ramirez,337226,2026-09-07
+83,Viviana Carolina Arias Suárez,Cortina blackout,Azul,Sofia Gomez,449838,2026-04-02
+84,Wilson Omar Bernal,Cortina blackout,Beige,Sofia Gomez,483699,2026-09-16
+85,Stella Carrillo Cabrera,Cortina translucida,Gris,Ana Torres,228073,2026-05-30
+86,Cristhian Hernández Hurtado,Persiana veneciana,Azul,Luis Ramirez,90607,2026-04-29
+87,Milena Narváez,Persiana enrollable,Gris,Ana Torres,184135,2026-03-30
+88,Victoria Diana Cárdenas Gómez,Panel japones,Blanco,Luis Ramirez,497244,2026-04-24
+89,Juliana Maritza Cifuentes,Persiana enrollable,Blanco,Luis Ramirez,214079,2026-07-24
+90,Mauricio Caicedo,Persiana veneciana,Blanco,Sofia Gomez,220565,2026-04-26
+91,Albeiro Luis Bejarano Pérez,Panel japones,Beige,Ana Torres,164374,2026-08-11
+92,Andrés Raúl Ojeda,Panel japones,Negro,Luis Ramirez,294006,2026-08-06
+93,Edith Orozco Rueda,Persiana veneciana,Negro,Ana Torres,307540,2026-04-26
+94,Alberto Gutiérrez Romero,Persiana veneciana,Azul,Luis Ramirez,378551,2026-09-08
+95,Patricia Rodríguez González,Cortina translucida,Gris,Sofia Gomez,115083,2026-08-27
+96,José Jesús López,Cortina blackout,Negro,Ana Torres,301749,2026-06-21
+97,Fernanda Nelly Muñoz Pérez,Persiana veneciana,Gris,Luis Ramirez,248494,2026-05-12
+98,Clara Luz Melo Álvarez,Persiana veneciana,Negro,Ana Torres,313777,2026-07-29
+99,Rosa Cruz,Persiana enrollable,Azul,Luis Ramirez,255849,2026-06-01
+100,María Francy Delgado,Cortina translucida,Blanco,Ana Torres,490854,2026-03-24
+101,Doris Alejandra Jaramillo,Cortina translucida,Gris,Ana Torres,191915,2026-06-09
+102,Jean Gustavo Medina Mejía,Cortina translucida,Negro,Luis Ramirez,404809,2026-08-04
+103,Sonia Suárez,Persiana enrollable,Gris,Luis Ramirez,430947,2026-05-06
+104,Jairo Martínez Trujillo,Cortina blackout,Azul,Ana Torres,81261,2026-07-06
+105,Alexandra Andrade Tovar,Persiana veneciana,Blanco,Ana Torres,140213,2026-04-02
+106,Edison Antonio González,Panel japones,Beige,Sofia Gomez,481649,2026-09-04
+107,Lina Carmen Flórez,Panel japones,Negro,Sofia Gomez,408670,2026-08-19
+108,Francisco Jhon Oviedo,Panel japones,Negro,Sofia Gomez,94272,2026-05-26
+109,Adrián Jorge Cruz Amaya,Panel japones,Negro,Luis Ramirez,136080,2026-04-29
+110,Karina Ríos,Panel japones,Blanco,Luis Ramirez,323269,2026-08-12
+111,Alexandra Castillo,Persiana veneciana,Blanco,Sofia Gomez,454483,2026-08-17
+112,Jeison David González Guerrero,Persiana veneciana,Azul,Luis Ramirez,278501,2026-06-01
+113,Camilo César Becerra,Cortina blackout,Negro,Sofia Gomez,421144,2026-05-26
+114,Gloria Gladys Melo Medina,Cortina blackout,Blanco,Ana Torres,419461,2026-08-30
+115,Luz Flor Velandia Patiño,Persiana veneciana,Blanco,Luis Ramirez,376076,2026-03-28
+116,María María Beltrán,Cortina blackout,Azul,Luis Ramirez,369579,2026-04-11
+117,Karina Inés Meneses,Persiana veneciana,Gris,Luis Ramirez,382552,2026-04-24
+118,,Cortina blackout,Blanco,Sofia Gomez,88976,2026-07-31
+119,Francisco Fabio Naranjo Osorio,Panel japones,Negro,Luis Ramirez,393847,2026-04-12
+120,Juan Jairo Arenas,Persiana veneciana,Gris,Luis Ramirez,295283,2026-08-14
+121,Esperanza Carmona,Cortina blackout,Gris,Luis Ramirez,253993,2026-09-17
+122,Jorge Jiménez Cuéllar,Cortina blackout,Negro,Ana Torres,228190,2026-06-15
+123,Esther Cristina Bermúdez Páez,Panel japones,Negro,Luis Ramirez,430467,2026-07-10
+124,Alejandro Murillo,Cortina blackout,Azul,Sofia Gomez,364390,2026-09-10
+125,Ana Méndez,Cortina blackout,Azul,Luis Ramirez,456861,2026-07-17
+126,Luz Bernal Alzate,Panel japones,Beige,Luis Ramirez,453183,2026-06-23
+127,Yolanda Suárez,Persiana veneciana,Negro,Ana Torres,426740,2026-04-28
+128,Robert Javier Henao Ocampo,Cortina translucida,Negro,Ana Torres,450092,2026-09-12
+129,,Cortina translucida,Azul,Luis Ramirez,105214,2026-09-11
+130,Ana Rincón,Panel japones,Gris,Luis Ramirez,309882,2026-08-22
+131,Jorge Yamid García,Persiana enrollable,Gris,Luis Ramirez,151128,2026-04-16
+132,Patricia Ortega,Persiana enrollable,Negro,Luis Ramirez,204348,2026-07-05
+133,Néstor Francisco Núñez Sánchez,Cortina translucida,Gris,Ana Torres,317316,2026-06-05
+134,Wilson Contreras Perea,Persiana veneciana,Beige,Sofia Gomez,489672,2026-06-13
+135,Marcela Ayala,Persiana enrollable,Gris,Luis Ramirez,495899,2026-08-08
+136,Adolfo Luis Arteaga,Cortina translucida,Gris,Ana Torres,468451,2026-09-15
+137,Jackeline Torres,Cortina translucida,Gris,Luis Ramirez,337855,2026-08-05
+138,José Delgado Sierra,Cortina blackout,Negro,Ana Torres,391532,2026-07-27
+139,Inés Ceballos Gómez,Cortina translucida,Azul,Sofia Gomez,322334,2026-07-10
+140,Shirley Bohórquez Hernández,Persiana veneciana,Blanco,Sofia Gomez,445436,2026-05-11
+141,Mauricio Andrés Ramírez,Cortina blackout,Gris,Sofia Gomez,298656,2026-09-19
+142,Leticia Magaly Sánchez,Cortina blackout,Blanco,Luis Ramirez,113211,2026-04-14
+143,Diana Ortiz,Persiana enrollable,Negro,Luis Ramirez,290286,2026-06-21
+144,Fernando Alejandro Carrillo,Persiana enrollable,Negro,Sofia Gomez,173315,2026-08-06
+145,Daniel Mena,Cortina blackout,Azul,Ana Torres,337265,2026-04-22
+146,Inés Ángela Perea Chávez,Panel japones,Gris,Ana Torres,470130,2026-09-19
+147,Carmen Bravo,Cortina blackout,Azul,Luis Ramirez,91811,2026-08-07
+148,,Persiana veneciana,Blanco,Ana Torres,191369,2026-04-16
+149,Cecilia Marcela Naranjo López,Persiana veneciana,Azul,Ana Torres,388138,2026-04-01
+150,Luis Edison Rubio,Persiana veneciana,Azul,Ana Torres,236501,2026-07-06
+151,Lorena Patricia González Martínez,Persiana veneciana,Beige,Ana Torres,404794,2026-06-07
+152,Maribel López,Persiana enrollable,Azul,Luis Ramirez,319893,2026-08-15
+153,Iván Luis García Murillo,Cortina blackout,Blanco,Sofia Gomez,272693,2026-08-21
+154,Osvaldo Hernando Moreno,Persiana enrollable,Negro,Sofia Gomez,338133,2026-08-05
+155,Nicolás Jaime González,Panel japones,Azul,Luis Ramirez,183481,2026-04-14
+156,Yadira Carmen Arenas Toro,Panel japones,Azul,Ana Torres,89809,2026-09-08
+157,Blanca Rosa Bustamante,Panel japones,Azul,Ana Torres,427004,2026-04-24
+158,Blanca Lizeth Córdoba Rodríguez,Cortina blackout,Azul,Sofia Gomez,432681,2026-04-08
+159,María María Ramírez,Cortina blackout,Azul,Sofia Gomez,401888,2026-07-18
+160,Yenny Peña Navarro,Persiana veneciana,Beige,Ana Torres,264974,2026-08-11
+161,Elena Suárez Gómez,Persiana veneciana,Beige,Sofia Gomez,353867,2026-05-11
+162,Omaira Cárdenas,Persiana enrollable,Azul,Ana Torres,361731,2026-04-23
+163,Lina Blanco Gutiérrez,Panel japones,Blanco,Sofia Gomez,408907,2026-06-11
+164,Germán Esteban Marín,Cortina translucida,Blanco,Ana Torres,245413,2026-08-20
+165,Alex Parra,Persiana enrollable,Blanco,Sofia Gomez,301084,2026-06-27
+166,Ana Ríos Castillo,Persiana veneciana,Azul,Luis Ramirez,134977,2026-08-04
+167,Yuri María Álvarez,Panel japones,Azul,Ana Torres,466519,2026-08-21
+168,Felipe Juan Oviedo Burbano,Persiana veneciana,Negro,Luis Ramirez,348564,2026-05-03
+169,Valentina Daniela Maldonado,Persiana veneciana,Gris,Ana Torres,445774,2026-05-25
+170,Susana Muñoz,Persiana enrollable,Negro,Sofia Gomez,194963,2026-03-31
+171,Liliana Francia Guevara Pérez,Cortina translucida,Blanco,Luis Ramirez,478910,2026-08-04
+172,Alonso Ruiz,Cortina blackout,Negro,Sofia Gomez,491492,2026-05-10
+173,Gloria Diana Rodríguez,Persiana veneciana,Blanco,Sofia Gomez,432875,2026-05-23
+174,,Cortina translucida,Gris,Ana Torres,105876,2026-05-29
+175,Gerardo Roberto Rodríguez,Panel japones,Gris,Sofia Gomez,394563,2026-03-29
+176,Bernardo Ríos,Panel japones,Beige,Sofia Gomez,110326,2026-07-03
+177,Cecilia Calderón Caicedo,Panel japones,Negro,Luis Ramirez,235776,2026-04-10
+178,Nidia Rivera García,Persiana enrollable,Negro,Sofia Gomez,167557,2026-09-13
+179,Lucía Adiela Sánchez Sánchez,Cortina blackout,Gris,Sofia Gomez,371535,2026-03-24
+180,Germán Henao Flórez,Cortina blackout,Negro,Ana Torres,462421,2026-07-03
+181,Mauricio Luis Moreno Bonilla,Cortina blackout,Azul,Sofia Gomez,490894,2026-06-11
+182,Yaneth Marcela Rodríguez,Persiana enrollable,Beige,Luis Ramirez,315842,2026-06-11
+183,Andrea Castillo,Persiana veneciana,Gris,Luis Ramirez,403153,2026-08-20
+184,,Cortina blackout,Gris,Ana Torres,188197,2026-06-07
+185,Bernardo Julio Peña Díaz,Cortina translucida,Gris,Luis Ramirez,279853,2026-07-21
+186,Martha Luna,Cortina blackout,Beige,Luis Ramirez,337999,2026-05-17
+187,Mauricio Jesús Nieto,Persiana enrollable,Azul,Sofia Gomez,326985,2026-06-24
+188,Dairo Hernández Sanabria,Panel japones,Beige,Ana Torres,357459,2026-07-02
+189,Katherin Hernández Soto,Cortina translucida,Blanco,Ana Torres,170466,2026-07-16
+190,Cristian Alfonso Cruz,Persiana veneciana,Azul,Luis Ramirez,382861,2026-04-12
+191,Camila Leidy Carrillo Forero,Persiana enrollable,Blanco,Ana Torres,431570,2026-05-24
+192,Alberto Portilla,Panel japones,Negro,Luis Ramirez,491112,2026-09-11
+193,Nidia Díaz,Cortina translucida,Beige,Luis Ramirez,149773,2026-07-06
+194,Deisy Enith Jiménez,Persiana enrollable,Blanco,Luis Ramirez,419276,2026-07-30
+195,Valentina Laura Suárez Duque,Persiana enrollable,Azul,Luis Ramirez,441262,2026-08-09
+196,Juan Ramírez Monsalve,Persiana veneciana,Beige,Luis Ramirez,287109,2026-07-30
+197,Carlos Rodríguez,Cortina blackout,Gris,Ana Torres,83401,2026-04-01
+198,Jhon Pabón Garzón,Persiana veneciana,Azul,Sofia Gomez,285068,2026-06-18
+199,Mercedes Sánchez,Cortina blackout,Negro,Sofia Gomez,441770,2026-04-10
+200,María Rosa Hernández,Panel japones,Beige,Ana Torres,463128,2026-04-06
+37,Alfredo Hernández,Cortina translucida,Azul,Luis Ramirez,282825,2026-05-31
+75,Ferney Yesid Santos,Cortina translucida,Gris,Ana Torres,382873,2026-04-13
+83,Viviana Carolina Arias Suárez,Cortina blackout,Azul,Sofia Gomez,449838,2026-04-02
+132,Patricia Ortega,Persiana enrollable,Negro,Luis Ramirez,204348,2026-07-05
+65,Lucía Ramírez Ávila,Cortina translucida,Azul,Ana Torres,116231,2026-05-20
