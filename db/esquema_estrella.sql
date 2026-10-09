@@ -1,3 +1,11 @@
+DROP TABLE IF EXISTS fact_ventas;
+DROP TABLE IF EXISTS dim_sede;
+DROP TABLE IF EXISTS dim_vendedor;
+DROP TABLE IF EXISTS dim_fecha;
+DROP TABLE IF EXISTS dim_producto;
+DROP TABLE IF EXISTS dim_cliente;
+
+
 CREATE TABLE dim_cliente (
     id_cliente SERIAL PRIMARY KEY,
     nombre VARCHAR(150) NOT NULL,
