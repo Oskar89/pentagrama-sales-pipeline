@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS ventas_dw;
+CREATE SCHEMA IF NOT EXISTS ventas_dw.core;
+USE DATABASE ventas_dw;
+USE SCHEMA core;
