@@ -15,4 +15,4 @@ En PostgreSQL el servidor corre siempre y los datos están pegados al cómputo. 
 - La jerarquía es cuenta, base de datos, esquema y tablas. Puedo consultar tablas de distintas bases en una misma consulta escribiendo `base.esquema.tabla`.
 - Snowflake convierte a mayúsculas los nombres sin comillas (`VENTAS_DW`), y PostgreSQL los convierte a minúsculas. Conviene evitar las comillas dobles en los nombres.
 - `SERIAL` no existe en Snowflake: se usa `NUMBER AUTOINCREMENT`. `VARCHAR` puede ir sin largo, y `NUMBER(12,2)` es lo habitual para dinero.
-- Las llaves primarias, únicas y foráneas se aceptan al crear la tabla pero no se hacen cumplir; solo `NOT NULL` se exige. En un warehouse la calidad de los datos la garantiza el pipeline, no la base de datos.
+- Las llaves primarias, únicas y foráneas se aceptan al crear la tabla pero no se hacen cumplir: solo documentan. `NOT NULL` y `CHECK` sí se hacen cumplir en las tablas estándar. Por eso el pipeline debe cargar las dimensiones antes que los hechos y validar las referencias con consultas, por ejemplo con un `LEFT JOIN` que busque huérfanos.
