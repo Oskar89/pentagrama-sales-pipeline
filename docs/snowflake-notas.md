@@ -39,3 +39,16 @@ Consulta: suma de `monto` y conteo por `id_producto`, top 10, sobre una tabla de
 
 **Lo que sé por la teoría**
 - Snowflake guarda los datos por columnas y PostgreSQL por filas. En tablas anchas, esto reduce lo que se lee en consultas analíticas.
+
+
+## Pipeline PostgreSQL a Snowflake (`etapa-2/pipeline_dw.py`)
+
+- Extrae la tabla `ventas` de PostgreSQL, construye cinco dimensiones y la tabla de hechos con pandas, valida la integridad y carga a Snowflake con `write_pandas`.
+- Las tablas se vacían con `TRUNCATE` y se recargan completas, así que el pipeline se puede ejecutar varias veces sin duplicar datos.
+- `COPY INTO` no funciona sobre tablas con `CHECK`; quité los `CHECK` de Snowflake y moví esas reglas a `validar_integridad`.
+- Snowflake no hace cumplir las llaves foráneas: el pipeline valida las referencias antes de cargar y busca ventas huérfanas con `LEFT JOIN` después.
+- `write_pandas` busca las columnas por nombre exacto, así que hay que pasar los nombres de columna en mayúsculas.
+
+**Datos simulados** (la tabla fuente no los trae): identificación, dirección, teléfono y correo de los clientes; cargo, zona, fecha de ingreso y comisión de los vendedores; las tres sedes; la cantidad de cada venta; y la categoría y estado de los productos. `precio_venta` es el promedio del monto, no un precio de catálogo real.
+
+**Limitaciones de los datos:** hay 192 clientes únicos para 192 ventas, así que no se puede analizar recompra; y las direcciones generadas con Faker no corresponden a la ciudad de cada sede.

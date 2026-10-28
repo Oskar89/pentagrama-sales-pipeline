@@ -22,7 +22,7 @@ CREATE TABLE dim_producto (
     nombre_producto VARCHAR(150) NOT NULL,
     descripcion VARCHAR(300),
     categoria VARCHAR(100),
-    precio_venta NUMBER(12, 2) CHECK (precio_venta >= 0),
+    precio_venta NUMBER(12, 2),
     estado VARCHAR(15),
     color VARCHAR(50)
 );
@@ -31,9 +31,9 @@ CREATE TABLE dim_fecha (
     id_fecha NUMBER PRIMARY KEY,
     fecha DATE NOT NULL UNIQUE,
     ano NUMBER NOT NULL,
-    mes NUMBER NOT NULL CHECK (mes BETWEEN 1 AND 12),
+    mes NUMBER NOT NULL,
     dia_semana VARCHAR(9) NOT NULL,
-    trimestre NUMBER NOT NULL CHECK (trimestre BETWEEN 1 AND 4),
+    trimestre NUMBER NOT NULL,
     es_fin_de_semana BOOLEAN NOT NULL,
     es_festivo BOOLEAN NOT NULL DEFAULT FALSE
 );
@@ -45,7 +45,7 @@ CREATE TABLE dim_vendedor (
     cargo VARCHAR(100),
     zona VARCHAR(100),
     fecha_de_ingreso DATE NOT NULL,
-    porcentaje_comision NUMBER(5, 2) NOT NULL CHECK (porcentaje_comision BETWEEN 0 AND 100),
+    porcentaje_comision NUMBER(5, 2) NOT NULL,
     estado VARCHAR(15)
 );
 
@@ -64,6 +64,6 @@ CREATE TABLE fact_ventas (
     id_fecha NUMBER NOT NULL REFERENCES dim_fecha(id_fecha),
     id_vendedor NUMBER NOT NULL REFERENCES dim_vendedor(id_vendedor),
     id_sede NUMBER NOT NULL REFERENCES dim_sede(id_sede),
-    monto NUMBER(12, 2) NOT NULL CHECK (monto >= 0),
-    cantidad NUMBER NOT NULL CHECK (cantidad > 0)
+    monto NUMBER(12, 2) NOT NULL,
+    cantidad NUMBER NOT NULL
 );
