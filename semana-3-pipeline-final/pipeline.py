@@ -76,7 +76,7 @@ def cargar_datos(df, nombre_tabla):
         db_password = os.getenv("DB_PASSWORD")
         db_port = os.getenv("DB_PORT")
 
-        conexion_str = f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
+        conexion_str = f"postgresql+psycopg2://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
         engine = create_engine(conexion_str)
 
         logger.info(f"Conectando a la base de datos '{db_name}'...")
