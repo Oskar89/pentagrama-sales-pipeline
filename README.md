@@ -47,3 +47,15 @@ Se llama 'esquema estrella' porque si lo dibujas, la tabla de hechos queda en el
 La pregunta clave para decidir si un dato va en la tabla de hechos o en una dimensión es: ¿este dato CAMBIA con cada transacción, o es un ATRIBUTO que describe algo que se repite? El monto de una venta cambia siempre (va en hechos). El nombre de un cliente no cambia entre una venta y otra del mismo cliente (va en dimensión, y se relaciona por un ID). Practica mentalmente: ¿dónde iría 'color del producto'? ¿Y 'fecha de la venta'? (ambas son dimensiones — describen contexto, no son métricas que sumas).
 
 # Ver el diseño del esquema estrella en `docs/EstrellaDatos_drawio.png`
+
+## Etapa 2: data warehouse (Milestone Project 2)
+
+Pipeline de ventas a un esquema estrella en Snowflake:
+
+`ventas_grande.csv` → PySpark (lectura y limpieza) → pandas (dimensiones y hechos) → validación de integridad → Snowflake
+
+- `etapa-2/generar_dataset_grande.py`: genera el dataset simulado (50.000 ventas, con nulos y duplicados).
+- `etapa-2/pipeline_spark.py`: ejecuta el pipeline completo.
+- `db/snowflake_esquema_estrella.sql`: crea las tablas en Snowflake.
+
+Los datos son simulados. Spark corre en modo local; con este volumen pandas es más rápido, pero el mismo código escala a volúmenes mayores.
