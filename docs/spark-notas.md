@@ -22,3 +22,11 @@
 - Definí el esquema de forma explícita en vez de `inferSchema`, para que los tipos no dependan de lo que Spark adivine.
 - Registrar cuántas filas elimina cada regla sirve para detectar problemas en la fuente de datos.
 - Verifiqué que Spark y pandas dan las mismas filas y el mismo total de monto.
+
+
+## Dataset grande (50.000 ventas)
+
+- Generé 50.750 filas (50.000 ventas más 750 duplicadas y 1.000 sin cliente) con un script con semilla fija, así que el archivo es reproducible y no lo subo a Git.
+- Los clientes ahora repiten compras (unos 10.000 clientes), lo que permite analizar la recompra.
+- La limpieza con Spark dio 49.000 filas, igual que pandas, con el mismo total de monto.
+- Tiempo con 50.000 filas: pandas [0,21] s y Spark [2,21] s. A este tamaño pandas es más rápido; Spark se justifica con volúmenes mucho mayores.

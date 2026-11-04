@@ -6,3 +6,4 @@ __pycache__/
 .env
 pipeline.log
 *.log
+data/ventas_grande.csv
